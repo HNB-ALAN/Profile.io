@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hoàng Văn Bắc — CV</title>
+<style>
+  :root {
+    --ink: #1a1d23;
+    --sub: #5a6270;
+    --line: #e3e6ea;
+    --accent: #2f6f4f;
+    --accent-soft: #eaf3ee;
+    --bg: #ffffff;
+    --chip-bg: #f4f6f8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #f0f1f3;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    line-height: 1.55;
+  }
+  .page {
+    max-width: 860px;
+    margin: 32px auto;
+    background: var(--bg);
+    padding: 48px 56px;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.06);
+  }
+  header.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 18px;
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  h1 { margin: 0; font-size: 30px; letter-spacing: 0.5px; }
+  .role { color: var(--accent); font-weight: 600; margin-top: 4px; font-size: 14px; }
+  .contact {
+    text-align: right;
+    font-size: 13.5px;
+    color: var(--sub);
+  }
+  .contact div { margin-bottom: 3px; }
+  section { margin-bottom: 26px; }
+  h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: var(--accent);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 6px;
+    margin: 0 0 14px 0;
+  }
+  .goal { font-size: 14.5px; color: var(--ink); }
+  .entry { margin-bottom: 16px; }
+  .entry:last-child { margin-bottom: 0; }
+  .entry-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .entry-title { font-weight: 700; font-size: 15px; }
+  .entry-sub { font-size: 13px; color: var(--sub); font-style: italic; }
+  .entry-date { font-size: 12.5px; color: var(--sub); white-space: nowrap; }
+  .entry ul { margin: 6px 0 0 0; padding-left: 20px; }
+  .entry li { font-size: 13.5px; margin-bottom: 3px; }
+  .stack-line { font-size: 12.5px; color: var(--sub); margin-top: 6px; }
+  .stack-line b { color: var(--ink); font-weight: 600; }
+  .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+  .tag {
+    background: var(--chip-bg);
+    border: 1px solid var(--line);
+    color: var(--ink);
+    font-size: 11.5px;
+    padding: 3px 9px;
+    border-radius: 20px;
+  }
+  .tag.accent { background: var(--accent-soft); border-color: #cfe3d8; color: var(--accent); font-weight: 600; }
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px;
+  }
+  .skill-group { margin-bottom: 12px; }
+  .skill-group h3 {
+    font-size: 12.5px;
+    margin: 0 0 6px 0;
+    color: var(--ink);
+    font-weight: 700;
+  }
+  .link {
+    font-size: 12px;
+    color: var(--accent);
+    word-break: break-all;
+  }
+  .link a { color: inherit; text-decoration: none; }
+  .link a:hover { text-decoration: underline; }
+  .proj-card {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px 18px;
+    margin-bottom: 14px;
+    background: #fbfcfc;
+  }
+  .proj-card:last-child { margin-bottom: 0; }
+  .proj-name { font-size: 15.5px; font-weight: 700; }
+  .proj-tagline { font-size: 12.5px; color: var(--sub); margin-top: 2px; }
+  .proj-desc { font-size: 13.5px; margin-top: 8px; }
+  .foot-row { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 16px; }
+  @media (max-width: 640px) {
+    .page { padding: 28px 20px; }
+    header.top { flex-direction: column; }
+    .contact { text-align: left; }
+    .grid2 { grid-template-columns: 1fr; }
+  }
+  @media print {
+    body { background: #fff; }
+    .page { box-shadow: none; margin: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="top">
+    <div>
+      <h1>HOÀNG VĂN BẮC</h1>
+      <div class="role">AI / Backend Engineer — Microservices &amp; AI-driven Products</div>
+    </div>
+    <div class="contact">
+      <div>Điện thoại: 0971 932 296</div>
+      <div>Email: hoangbac.hnb@outlook.com</div>
+      <div>Sinh: 09/03/1993</div>
+      <div>TP. Hồ Chí Minh / Hà Nội</div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Mục tiêu nghề nghiệp</h2>
+    <div class="goal">
+      Làm tốt công việc ứng tuyển, hướng tới tạo ra giá trị mới trong lĩnh vực tiền kỹ thuật số. Tập trung phát triển sản phẩm AI/backend chất lượng production: microservices, pipeline dữ liệu, và tích hợp AI vào sản phẩm thực tế.
+    </div>
+  </section>
+
+  <section>
+    <h2>Học vấn</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Đại học FPT – TP.HCM</div>
+        <div class="entry-date">05/2022 – 06/2025</div>
+      </div>
+      <div class="entry-sub">Công nghệ thông tin — Trí tuệ nhân tạo &amp; Khoa học dữ liệu (tốt nghiệp 2025)</div>
+      <div class="entry-sub">GPA: 3.0/4.0</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Dự án sản phẩm (Project Experience)</h2>
+
+    <div class="proj-card">
+      <div class="proj-name">Alu‑vivu — AI Event Networking Platform</div>
+      <div class="proj-tagline">Web (Next.js) · Mobile (Flutter) · Admin Dashboard · Face Recognition · AI Matching</div>
+      <div class="link">🔗 <a href="https://aluvivu.com" target="_blank" rel="noopener">aluvivu.com</a></div>
+      <div class="proj-desc">
+        Nền tảng networking cho sự kiện alumni, ứng dụng AI để gợi ý kết nối phù hợp thay vì networking ngẫu nhiên. Tham gia xây dựng các microservice backend (NestJS + Fastify, Prisma), tích hợp AI Onboarding (LangGraph agent), Smart Matching Engine (hybrid scoring: embedding + rule-based), Face Recognition (on-device TFLite + server-side pgvector similarity search), và Icebreaker Engine (RAG + LLM).
+      </div>
+      <ul>
+        <li>Xây dựng và vận hành các service Node.js (Auth, User, Event, Connection, Realtime Suggestion) trên NestJS + Fastify, kết nối PostgreSQL qua Prisma ORM.</li>
+        <li>Triển khai vector search bằng pgvector (HNSW index) cho profile embeddings (1536-dim) và face embeddings (512-dim), phục vụ Matching Engine và Face Recognition.</li>
+        <li>Thiết kế hàng đợi bất đồng bộ với AWS SQS (profile-embedding-queue, rag-indexing-queue) và cache/session bằng Redis (AWS ElastiCache).</li>
+        <li>Đóng góp phần realtime: WebSocket (`ws`), polling, Server-Sent Events fallback cho gợi ý kết nối theo thời gian thực.</li>
+        <li>Triển khai hạ tầng trên AWS ECS (Fargate), ALB, RDS Proxy, Secrets Manager; quản lý qua monorepo pnpm + Turborepo.</li>
+      </ul>
+      <div class="stack-line">
+        <b>Stack:</b> Next.js 14, Flutter, NestJS (Fastify/Express), FastAPI, LangGraph, PostgreSQL + pgvector, Redis, AWS (ECS/SQS/RDS/SES), Prisma, OpenTelemetry, Jest, pytest
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-name">VINA‑too — AI-powered ATS (Career Management Platform)</div>
+      <div class="proj-tagline">Nền tảng tuyển dụng thông minh — Multi-tenant, Candidate Pipeline, AI Service</div>
+      <div class="link">🔗 <a href="https://vinatoo.com" target="_blank" rel="noopener">vinatoo.com</a></div>
+      <div class="proj-desc">
+        Hệ thống ATS (Applicant Tracking System) nội bộ tích hợp AI, hỗ trợ quy trình tuyển dụng end-to-end: đăng tin, quản lý ứng viên, sinh nội dung JD/email bằng AI. Trực tiếp làm việc trên module Candidates: tách các service tập trung (candidate processor, orchestration service, dashboard cache, bulk actions), viết unit test và property test đảm bảo chuẩn production.
+      </div>
+      <ul>
+        <li>Thiết kế lại kiến trúc module Candidates theo hướng service nhỏ, gọn (candidate-apply-orchestration, dashboard cache, tenant resolver, bulk service), giảm coupling và tăng khả năng bảo trì.</li>
+        <li>Xây dựng background processor xử lý pipeline ứng viên (candidate.processor) và bộ test đi kèm (Jest, spec + property-based test).</li>
+        <li>Làm việc với API backend NestJS (Fastify), Prisma ORM, BullMQ cho job queue, Redis cache, RBAC theo role (TA, Admin, Platform Admin).</li>
+        <li>Phối hợp với AI service viết bằng FastAPI + LangChain/OpenAI để sinh JD, email tuyển dụng tự động (GPT-4o / GPT-4o-mini).</li>
+        <li>Đảm bảo chất lượng qua verify-readiness script, production-contract-check, và các bài audit tenant/billing/hot-query.</li>
+      </ul>
+      <div class="stack-line">
+        <b>Stack:</b> Next.js, NestJS + Fastify, Prisma, PostgreSQL, Redis, BullMQ, FastAPI, LangChain, OpenAI API, Playwright, Jest, Turborepo/pnpm
+      </div>
+    </div>
+
+    <div class="proj-card">
+      <div class="proj-name">USC Platform — 24-Microservice Rust Backend</div>
+      <div class="proj-tagline">Clean Architecture (Porto Pattern) · gRPC · Event-driven · Blockchain &amp; Wallet</div>
+      <div class="proj-desc">
+        Hệ sinh thái backend quy mô lớn gồm 24 microservice viết bằng Rust (Gateway, Auth, User, Blockchain Core, Wallet, Social, Commerce, AI, Video, Search, Recommendation, Advertising, Jobs Grab, World/Metaverse...), giao tiếp qua gRPC, kiến trúc Clean Architecture (Porto Pattern) đồng nhất, phục vụ cho các app Flutter (mobile) và Next.js (web) trong hệ thống APPS-W.
+      </div>
+      <ul>
+        <li>Xây dựng service theo Clean Architecture (api/grpc → application → infrastructure), chuẩn hoá proto (`oneof result`, UUID v7, timestamp), tách domain model khỏi proto để dễ bảo trì.</li>
+        <li>Làm việc với hạ tầng dữ liệu đa dạng: ScyllaDB (primary DB), Redis Cluster (cache/session), ClickHouse (OLAP/analytics), Qdrant (vector embeddings cho AI service), InfluxDB (metrics timeseries).</li>
+        <li>Triển khai giao tiếp bất đồng bộ, event-driven giữa các service qua Kafka (KRaft mode, 3 brokers) cho Notification, Analytics, Recommendation.</li>
+        <li>Tham gia các service nghiệp vụ trọng yếu: Blockchain Core (consensus, transactions), Wallet (balances, transfers), Jobs Grab (marketplace, matching), AI (embeddings, inference, personalization).</li>
+        <li>Đảm bảo chất lượng qua `cargo fmt` → `cargo clippy` → `cargo test` (unit + integration + E2E) → `cargo build --release`; đóng gói Docker/Kubernetes.</li>
+      </ul>
+      <div class="stack-line">
+        <b>Stack:</b> Rust, Tonic (gRPC), Tokio, ScyllaDB, Kafka, Redis Cluster, ClickHouse, Qdrant, InfluxDB, Kubernetes, Docker Compose, OpenTelemetry, Flutter, Next.js
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kinh nghiệm làm việc</h2>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Vin Smart Future</div>
+        <div class="entry-date">25/05/2026 – 01/07/2026</div>
+      </div>
+      <div class="entry-sub">Product Lead — Từ thiết kế (Design) đến triển khai sản phẩm</div>
+      <ul>
+        <li>Đảm nhận vai trò lead sản phẩm xuyên suốt vòng đời: từ thiết kế (UX/UI, product design) đến định hướng kỹ thuật và triển khai thực tế.</li>
+        <li>Phối hợp giữa đội thiết kế và đội phát triển để đảm bảo sản phẩm bám sát đúng yêu cầu nghiệp vụ và trải nghiệm người dùng.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">FPT Software — Quy Nhơn</div>
+        <div class="entry-date">2023 – 2024</div>
+      </div>
+      <div class="entry-sub">Nhân viên — Data / ETL</div>
+      <ul>
+        <li>Làm việc với Apache Airflow, xây dựng pipeline lấy dữ liệu từ hệ thống này chuyển sang hệ thống khác (ETL).</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Online Jobs (Freelance)</div>
+        <div class="entry-date">2020 – Hiện tại</div>
+      </div>
+      <div class="entry-sub">Backend Developer</div>
+      <ul>
+        <li>Nhận yêu cầu và xây dựng các microservices Back-end sử dụng Rust và Golang.</li>
+        <li>Hợp tác với nhiều freelancer khác theo từng dự án (backend, AI, mobile) để hoàn thiện sản phẩm end-to-end cho khách hàng.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Nhóm bạn bán hàng chung</div>
+        <div class="entry-date">2015 – 2019</div>
+      </div>
+      <div class="entry-sub">Bán hàng</div>
+      <ul>
+        <li>Tạo kênh nội dung trên các nền tảng mạng xã hội, chạy quảng cáo, mua bán hàng.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Hoạt động</h2>
+    <div class="entry">
+      <div class="entry-head">
+        <div class="entry-title">Câu lạc bộ AbangB — Đại học FPT</div>
+        <div class="entry-date">2020</div>
+      </div>
+      <div class="entry-sub">Người sáng lập / Trưởng nhóm tình nguyện</div>
+      <ul>
+        <li>Thành lập và dẫn dắt câu lạc bộ tình nguyện AbangB tại Đại học FPT.</li>
+        <li>Tổ chức tập hợp quà và phân phát tới người vô gia cư; quyên góp hỗ trợ người khó khăn trong mùa dịch Covid-19.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Kỹ năng</h2>
+    <div class="grid2">
+      <div>
+        <div class="skill-group">
+          <h3>AI / Research</h3>
+          <div class="tags">
+            <span class="tag accent">Python</span>
+            <span class="tag accent">PyTorch</span>
+            <span class="tag accent">FastAPI</span>
+            <span class="tag accent">LangGraph / LangChain</span>
+            <span class="tag accent">OpenAI API (RAG, Embeddings)</span>
+            <span class="tag accent">pgvector</span>
+          </div>
+          <div class="link"><a href="https://github.com/bachvse150427/MODEL_BB.git" target="_blank" rel="noopener">github.com/bachvse150427/MODEL_BB</a></div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Backend / Microservices</h3>
+          <div class="tags">
+            <span class="tag">Golang</span>
+            <span class="tag">Rust</span>
+            <span class="tag">Tonic / gRPC</span>
+            <span class="tag">Tokio (async)</span>
+            <span class="tag">NestJS (Fastify/Express)</span>
+            <span class="tag">Prisma</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">ScyllaDB</span>
+            <span class="tag">ClickHouse</span>
+            <span class="tag">Qdrant</span>
+            <span class="tag">Redis / Redis Cluster</span>
+            <span class="tag">Kafka</span>
+            <span class="tag">BullMQ / SQS</span>
+          </div>
+          <div class="link"><a href="https://github.com/bachvse150427/demo-Rust-microservice.git" target="_blank" rel="noopener">github.com/bachvse150427/demo-Rust-microservice</a></div>
+          <div class="link"><a href="https://github.com/bachvse150427/demo-Golang--cosmos-microservice.git" target="_blank" rel="noopener">github.com/bachvse150427/demo-Golang-cosmos-microservice</a></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="skill-group">
+          <h3>Mobile / Web App</h3>
+          <div class="tags">
+            <span class="tag">Flutter</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">React</span>
+            <span class="tag">TypeScript</span>
+          </div>
+          <div class="link"><a href="https://www.youtube.com/watch?v=GH4irC1B9AA" target="_blank" rel="noopener">Demo video: youtube.com/watch?v=GH4irC1B9AA</a></div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Hạ tầng &amp; Công cụ</h3>
+          <div class="tags">
+            <span class="tag">Git</span>
+            <span class="tag">Docker</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">AWS (EC2, S3, ECS, SQS, RDS)</span>
+            <span class="tag">Railway</span>
+            <span class="tag">Vercel</span>
+            <span class="tag">Apache Airflow (ETL)</span>
+            <span class="tag">Cursor / Copilot (AI-assisted coding)</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Quản lý dự án / Production</h3>
+          <div class="tags">
+            <span class="tag">Quản lý production</span>
+            <span class="tag">Agile</span>
+            <span class="tag">Notion</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Nền tảng khác</h3>
+          <div class="tags">
+            <span class="tag">Marketing &amp; Tài chính doanh nghiệp</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="foot-row">
+      <div>
+        <h2 style="border:none; margin-bottom:6px;">Kỹ năng mềm</h2>
+        <div style="font-size:13.5px;">Giải quyết vấn đề · Lập kế hoạch</div>
+      </div>
+      <div>
+        <h2 style="border:none; margin-bottom:6px;">Ngôn ngữ</h2>
+        <div style="font-size:13.5px;">Tiếng Anh · Tiếng Việt</div>
+      </div>
+      <div>
+        <h2 style="border:none; margin-bottom:6px;">Sở thích</h2>
+        <div style="font-size:13.5px;">Thiện nguyện · Xem phim</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
