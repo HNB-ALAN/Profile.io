@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 72" fill="none" role="img" aria-label="ALAN">
+  <defs>
+    <linearGradient id="goldLine" x1="0" y1="0" x2="280" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c9a962"/>
+      <stop offset="0.5" stop-color="#dfc88a"/>
+      <stop offset="1" stop-color="#9a7840"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Stylized A icon -->
+  <path d="M18 8 L34 52 L28 52 L24.5 42 L11.5 42 L8 52 L2 52 Z M14.5 36 L21.5 36 L18 26 Z"
+        fill="url(#goldLine)"/>
+
+  <!-- ALAN text -->
+  <text x="48" y="46"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="48"
+        font-weight="700"
+        letter-spacing="12"
+        fill="#0c1520">ALAN</text>
+
+  <!-- Underline -->
+  <rect x="48" y="56" width="220" height="2.5" rx="1.25" fill="url(#goldLine)"/>
+</svg>

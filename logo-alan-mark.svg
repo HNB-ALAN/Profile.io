@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" role="img" aria-label="ALAN">
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#dfc88a"/>
+      <stop offset="0.5" stop-color="#c9a962"/>
+      <stop offset="1" stop-color="#9a7840"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="60" y1="10" x2="60" y2="110" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1a2a3a"/>
+      <stop offset="1" stop-color="#0c1520"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <circle cx="60" cy="60" r="58" fill="url(#shine)"/>
+  <circle cx="60" cy="60" r="58" stroke="url(#gold)" stroke-width="2.5" fill="none"/>
+
+  <!-- Stylized A mark -->
+  <path d="M60 24 L74 56 L68 56 L65 49 L55 49 L52 56 L46 56 Z M57.5 43 L62.5 43 L60 37 Z"
+        fill="url(#gold)"/>
+
+  <!-- ALAN wordmark -->
+  <text x="60" y="78"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-size="22"
+        font-weight="700"
+        letter-spacing="6"
+        fill="#ffffff"
+        text-anchor="middle">ALAN</text>
+
+  <!-- Accent line -->
+  <rect x="32" y="86" width="56" height="1.5" rx="0.75" fill="url(#gold)" opacity="0.9"/>
+</svg>
