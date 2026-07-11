@@ -1,25 +1,24 @@
-# Profile.io
+# 🚀 ALAN — CV Portfolio
 
-## 🔗 Live Page
-[View CV Online](https://hnb-alan.github.io/git-profile/)
+> **AI/Backend Engineer** specializing in Microservices & AI-driven Products
 
-## 📄 About
-Personal CV/Resume website for Hoàng Văn Bắc (ALAN)
-
-- **Role**: AI / Backend Engineer
-- **Focus**: Microservices & AI-driven Products
-
-## 🚀 Tech Stack
-- HTML5
-- CSS3 (Custom Design)
-- Responsive Layout
-- Print-optimized
-
-## 📂 Files
-- `index.html` - Main CV page
-- `logo-alan-mark.svg` - Brand logo with mark
-- `logo-alan.svg` - Brand logo
+## ✨ [**View Live →**](https://hnb-alan.github.io/Profile.io/)
 
 ---
 
-© 2026 Hoàng Văn Bắc. All rights reserved.
+### 💼 Highlights
+- **24 Microservices** in Rust (gRPC, Clean Architecture)
+- **AI Networking Platform** (LangGraph, pgvector, Face Recognition)
+- **ATS System** with AI-powered JD generation
+
+### � Contact
+- 📧 hoangbac.hnb@outlook.com
+- 📱 0971 932 296
+- 📍 TP. HCM / Hà Nội
+
+---
+
+<div align="center">
+  <sub>Designed & Developed by <strong>Hoàng Văn Bắc</strong></sub>
+</div>
+
