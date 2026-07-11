@@ -13,7 +13,7 @@
 
 ### � Contact
 - 📧 hoangbac.hnb@outlook.com
-- 📱 0971 932 296
+- 📱 0971 932 296 (Zalo)
 - 📍 TP. HCM / Hà Nội
 
 ---
